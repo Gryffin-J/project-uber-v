@@ -1,16 +1,26 @@
-# Build Log
+# Uber V - Electric Bicycle Conversion
 
-## 2026-10-23: Funding The Project
+## Project Overview
 
-**What I did:** I made some major progress in gaining funding for this project. To give some background info a couple weeks ago I started delivering food on my bike with doordash. I then saw that uber eats was having a promotion for new drivers for 150 dollars for your first 15 deliveries and you could do that 3 times so 450 dollars total. I had done 27 deliveries before today and the promotion was ending tomorrow so I decided to knock the rest of it out today. So I did 18 deliveries and went from 400 dollars to 820 dollars in all. So I made 700 dollars just this week using uber eats. 
+**Objective:** Design a custom electric bicycle conversion using a vintage Cannondale Super V platform. The project will focus on battery characterization, electrical powertrain design, mechanical integration, and cost optimization.
 
-**Why this is important:** This funding is very important because I do not want to have to pull money out of my savings account for this project and the money I made this week should get me close to, if not all the way to having the project 100 percent funded. 
+I intend to document the engineering process, including design decisions, measurements, failures, costs, and revisions. A major goal is to fund the project through part-time delivery work rather than using personal savings.
 
-**What is unknown** It is still unknown when the cells will arrive. Fedex tracking says the label has been created so I will estimate another 2-4 days.
 
-**Future Plans:** I plan on taking a break from doing deliveries for a couple of weeks to split my time between this project and studying for my midterms. I am going to make time tomorrow to fully clean the bike and start planning my first Linked In post showcasing the plan for this project. I also need to order a battery tester so I have that in time for when the cells arrive.
 
-## 2026-10-23: Virginia Ebike Law and Cell Testing Bottleneck
+## Build Log
+
+### 2026-10-24: Funding The Project
+
+**What I did:** I made some major progress in gaining funding for this project. To give some background info a couple weeks ago I started delivering food on my bike with doordash. I then saw that uber eats was having a promotion for new drivers for $150 for your first 15 deliveries and that is valid for up to 3 times so $450 total. I had done 27 deliveries prior to today and the promotion was ending tomorrow, so I decided to knock the rest of it out today. As of October 24, my Uber Eats earnings for the week totaled $729.74, including $450 in promotional bonuses. My Uber wallet balance reached $822.94, including earnings from previous weeks. These figures are gross earnings before taxes and expenses.
+
+**Current Project Budget:** So far, I have spent $288.26 on 500 reclaimed 18650 cells and related supplies. My goal is to finance the rest of the components only using money from deliveries and not withdrawing any money from my savings. Future costs will include battery testing equipment, a motor and controller, a BMS, mechanical components, and safety equipment.
+
+**What is unknown** It is still unknown when the cells will arrive. FedEx tracking says the label has been created so I will estimate another 2-4 days.
+
+**Future Plans:** I plan on taking a break from doing deliveries for a couple of weeks to split my time between this project and studying for my midterms. I am going to make time tomorrow to fully clean the bike and start planning my first LinkedIn post showcasing the plan for this project. I also need to order a battery tester so I have that in time for when the cells arrive.
+
+### 2026-10-23: Virginia Ebike Law and Cell Testing Bottleneck
 
 **What I did:** I did some research on Virginia Ebike law.
 
@@ -20,16 +30,20 @@
 
 **What to do next?:** I think going forward I am keeping my plan pretty much the same but I think I am going to have to figure out a way to program the controller to cap at 750 watts. I still want the ability to test the bike's full power but I don't want to risk having it be non-street legal and getting into a wreck or something. For the short term I want to give the bike a nice soapy clean because it is covered in dirt and after that I want to take measurements and document them and put pictures in the github along with the data.
 
-**Additional problem:** Another problem I learned I will encounter with some research is the cell testing phase. With an 8 cell battery tester each charge and discharge phase could take somewhere from 6-12 hours(**Estimate**). Each one costs around 40 dollars. So with a single tester it would take somewhere from 750-1000 hours of testing(**Esitmate**). Luckily it is mainly passive but that is a huge chunk of time. My only real thought for how I could get past this is throwing more money into the testers so maybe 4 testers. But that would run me up to 160 dollars just for battery testers which will run up the total budget for the entire build. I think I will start with one tester and do a benchmark of how fast I can test cells and go from there.
+**Unresolved:** It is unclear whether limiting the motor to 750W through software would follow Virginia's electric bicycle classification requirements. I need to verify this before treating the completed vehicle as road-legal.
 
-## 2026-10-21: Ordered Cells Yesterday
+**Additional problem:** Another problem I learned I will encounter with some research is the cell testing phase. I estimate that a complete capacity testing cycle could take around 8–15 hours per batch, depending on the initial charge level, testing current, and equipment. I will benchmark the actual duration using one tester before deciding whether additional units are worth purchasing. Each one costs around 40 dollars. So with a single 8 channel tester it would take somewhere from 500-950 hours of testing(**Estimate**).
+
+### 2026-10-21: Ordered Cells Yesterday
 
 **What I did:**  ordered 50 modem battery packs each with 10 18650 cells rated at 3200 mAh from battery hookup (total of 500 cells)
 
-**What I expect:** I expect a mixed quality from the cells. I estimate 5 percent will be dead and 20 percent will be close to dead, maybe possibly revivable. As for capacity I expect on the lowest end like 1600mAh but most probably around 2600mAh I hope.
+**What I expect:** I expect a mixed quality from the cells. I estimate 5 percent will be dead and 20 percent degraded. As for capacity I expect on the lowest end around 1600mAh but most on average around 2600mAh I hope.
 
 **What is unknown:** I have no idea which mixture of cell brands I will get. Also unsure of how the internal resistances will differ. Additionally I have no way of knowing how many have survived after sitting for years uncharged.
 
 **What to do next?:** Take measurements of the bike dimensions, set up battery tracking CSV, Check if my multimeter is sufficient, buy a battery tester to test capacity of cells. And hope cells don't take a month to arrive.
+
+
 
 
