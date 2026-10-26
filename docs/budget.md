@@ -22,7 +22,7 @@
 ## 2. Vehicle Bill of Materials (BOM)
 ### A. Battery Pack & Enclosure
 | Item / Component | Specification / Model | Qty | Cost | Status | Source / Link |
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|
 | 18650 Cells | 3200mah | 500 | $225.00 | Pending | [Source](https://batteryhookup.com/collections/frontpage/products/modem-battery-with-10x-3200mah-18650) |
 | Insulator Ring Sheet | 18650 Rings | 2 | $5.97 | Pending | [Source](https://batteryhookup.com/collections/accessories/products/2170-cell-insulator-rings)
 | Kapton Tape | 1" wide (25mm) | 1 roll | $3.50 | Pending | [Source](https://batteryhookup.com/collections/accessories/products/kapton-heat-tape-1-wide-or-2-wide-x-36-yards) |
