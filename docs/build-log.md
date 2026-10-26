@@ -10,6 +10,17 @@ I intend to document the engineering process, including design decisions, measur
 
 ## Build Log
 
+### 2026-10-25
+
+**What I did:** I gave the bike a clean with warm soap and water and dried it off. Here are the [before and after cleaning photos](images/2026-10-25-bike-cleaning/). I also did some more research on how I should go about battery testing.
+
+**What I learned:** I learned that something that I will need is a way to measure the internal resistance of each cell. Normal battery testers like the ones I have been researching do not have the most accurate testing methods for internal resistance. A dedicated 1kHz AC milliohm meter is what I will need to get accurate readings. These are not the cheapest of items but I think this [listing](https://www.amazon.com/dp/B0F8P45N35?_encoding=UTF8&psc=1) is the way to go despite its cost of $64.99. It should make the voltage and internal resistance measurements go by much faster and turn out more accurate than other methods. 
+
+**What is unknown** The shipping on the cells still says "Label Created" so I do not know what to think. I am hoping for a couple days but it is just unknown.
+
+**Future Plans** I still need to order the 1kHz tester and the battery tester to test the capacity of the cells. I want to make sure I make the right choice on this but I want to have the testers by the time the cells arrive. So I plan on ordering both tomorrow and updating the budget.md.
+
+
 ### 2026-10-24: Funding The Project
 
 **What I did:** I made some major progress in gaining funding for this project. To give some background info a couple weeks ago I started delivering food on my bike with doordash. I then saw that uber eats was having a promotion for new drivers for $150 for your first 15 deliveries and that is valid for up to 3 times so $450 total. I had done 27 deliveries prior to today and the promotion was ending tomorrow, so I decided to knock the rest of it out today. As of October 24, my Uber Eats earnings for the week totaled $729.74, including $450 in promotional bonuses. My Uber wallet balance reached $822.94, including earnings from previous weeks. These figures are gross earnings before taxes and expenses.
