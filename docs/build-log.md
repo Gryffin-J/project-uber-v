@@ -10,6 +10,17 @@ I intend to document the engineering process, including design decisions, measur
 
 ## Build Log
 
+### 2026-10-30: Modem Teardown, IR Testing, and Capacity Benchmarking
+
+**What I did:** I received the Battery Hookup order, unpacked it, and added [photos](images/2026-10-30-cells-and-modems/). I spent around 5 or 6 hours breaking open the modem battery packs and extracting the cells. I managed to get all 50 open and the cells out. Out of those 500 cells, I have removed the contact welds off of 100 and tested their voltage and internal resistance. The data is now in [cell-log.csv](../data/cell-log.csv). The average internal resistance was around 38 mΩ, which should be fine for the battery pack. I have also tested the capacity of a batch of 6 cells using the tool I bought (cells 1–6). The capacity of these 6 sample cells ranged from 2,850 mAh to 2,950 mAh. This is already exceeding my expectations (initial estimate was around 2,600 mAh), though I will test more cells to see if the trend holds.
+
+**Some issues I have encountered:** There are a couple issues I have run into. First, instead of receiving 6 single-cell chargers, they gave me 6 basic analog battery testers by mistake. I am not too worried about this because the testers were only $4.50 for all of them, so I will deal with it. Another issue is that my dog chewed up my roll of Kapton tape, so I will have to replace that. Removing the spot welds is also tedious—I still have 400 cells left, which equals 800 weld joints to grind/peel.
+
+**What is unknown:** It is unknown how the capacity of the remaining 400 cells will turn out or what their internal resistances will be. It is also unknown whether the cells are all the same brand. They have minimal markings other than some having a capital "C" and some having a capital "B". I may add this to the data table for each cell to compare the two. At a glance, every cell and modem looks identical.
+
+**Future Plans:** I plan on finishing removing all welds and testing IR/voltage in the next couple of days. I am debating whether capacity testing all of them makes sense or if I should test a representative sample to avoid hundreds of hours of cycling. Once I have the full dataset, I will look into cell-sorting algorithms to balance the parallel groups for the pack.
+
+
 ### 2026-10-25
 
 **What I did:** I gave the bike a clean with warm soap and water and dried it off. Here are the [before and after cleaning photos](images/2026-10-25-bike-cleaning/). I also did some more research on how I should go about battery testing.
